@@ -1,0 +1,14 @@
+{
+  "parts": [
+    {
+      "name": "moinmoin_export",
+      "pre": ["ep_etherpad-lite/webaccess"],
+      "hooks": {
+        "expressCreateServer": "ep_moinmoin_export/hooks",
+        "eejsBlock_exportColumn": "ep_moinmoin_export/hooks",
+        "eejsBlock_scripts": "ep_moinmoin_export/hooks",
+        "eejsBlock_styles": "ep_moinmoin_export/hooks"
+      }
+    }
+  ]
+}

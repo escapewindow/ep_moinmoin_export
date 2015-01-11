@@ -1,0 +1,22 @@
+{
+  "name": "ep_moinmoin_export",
+  "version": "1.0.0",
+  "description": "Exports a pad to a MoinMoin wiki.",
+  "author": "Holger Cremer <HolgerCremer@gmail.com>",
+  "homepage": "https://github.com/smilix/ep_moinmoin_export",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/smilix/ep_moinmoin_export.git"
+  },
+  "keywords": [
+    "etherpad",
+    "moinmoin",
+    "export"
+  ],
+  "dependencies": {
+    "MODULE": "2.1.14"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
