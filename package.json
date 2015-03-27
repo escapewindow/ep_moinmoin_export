@@ -13,9 +13,6 @@
     "moinmoin",
     "export"
   ],
-  "dependencies": {
-    "MODULE": "2.1.14"
-  },
   "engines": {
     "node": ">= 0.10.0"
   }
